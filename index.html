@@ -21,4 +21,66 @@
 <option value="kok">कोंकणी - Konkani</option>
 <option value="mai">मैथिली - Maithili</option>
 <option value="ml">മലയാളം - Malayalam</option>
-<option value="mni">ꯃꯅꯤꯄꯨꯔꯤ - Manip
+<option value="mni">ꯃꯅꯤꯄꯨꯔꯤ - Manipuri</option>
+<option value="mr">मराठी - Marathi</option>
+<option value="ne">नेपाली - Nepali</option>
+<option value="or">ଓଡ଼ିଆ - Odia</option>
+<option value="pa">ਪੰਜਾਬੀ - Punjabi</option>
+<option value="sa">संस्कृतम् - Sanskrit</option>
+<option value="sat">ᱥᱟᱱᱛᱟᱲᱤ - Santali</option>
+<option value="sd">سنڌي - Sindhi</option>
+<option value="ta">தமிழ் - Tamil</option>
+<option value="te">తెలుగు - Telugu</option>
+<option value="ur">اردو - Urdu</option>
+</select>
+
+<div onclick="sos()" style="background:#e60000;color:white;padding:18px;border-radius:12px;font-weight:bold;font-size:20px">
+<span id="sosText">🛡️ SOS - Women Safety</span><br>
+<span id="sosSub" style="font-size:12px;font-weight:normal">Tap for Emergency Help</span>
+</div>
+
+<h2 style="margin-top:20px">New World Students</h2>
+<p>Kadapa - Admission Form</p>
+<input type="text" placeholder="Student ka Naam" style="width:100%;padding:12px;margin:5px 0">
+<input type="text" placeholder="Parent ka Mobile Number" style="width:100%;padding:12px;margin:5px 0">
+<select style="width:100%;padding:12px;margin:5px 0">
+<option>Class Select Karo</option>
+<option>Class 6 - ₹800 / month</option>
+<option>Class 7 - ₹800 / month</option>
+<option>Class 8 - ₹900 / month</option>
+<option>Class 9 - ₹1000 / month</option>
+<option>Class 10 - ₹1200 / month</option>
+</select>
+<button style="width:100%;padding:14px;background:blue;color:white;border:none;border-radius:10px;font-size:16px">Admission Ke Liye Apply Karo</button>
+</div>
+<script>
+let lang='en';
+let T={
+en:{s:"🛡️ SOS - Women Safety",u:"Tap for Emergency Help",a:"SOS ALERT! Your location sent to 3 trusted contacts. Help is coming. Stay strong."},
+hi:{s:"🛡️ SOS - Mahila Suraksha",u:"Emergency ke liye Dabao",a:"SOS ALERT! Aapki location 3 trusted contacts ko bhej di gayi. Help aa rahi hai. Himmat rakho."},
+as:{s:"🛡️ SOS - Mahila Suraksha",u:"Emergency Help r babe Dabok",a:"SOS ALERT! Aapunar location 3 trusted contacts loi pothua hol. Help ahi ase."},
+bn:{s:"🛡️ SOS - Mohila Nirapotta",u:"Emergency Help er jonno Chapun",a:"SOS ALERT! Apnar location 3 jon trusted contact ke pathano hoyeche. Help asche."},
+brx:{s:"🛡️ SOS - Hinkhwnajw Fwrwngthai",u:"Emergency Help ni thakay Thab",a:"SOS ALERT! Nwngni location 3 trusted contacts no horbadong. Help faigashino."},
+doi:{s:"🛡️ SOS - Mahila Suraksha",u:"Emergency Help layi Dabbo",a:"SOS ALERT! Tuhadi location 3 trusted contacts nu bhej ditti gayi. Help aa rahi hai."},
+gu:{s:"🛡️ SOS - Mahila Suraksha",u:"Emergency Help mate Dabavo",a:"SOS ALERT! Tamari location 3 trusted contacts ne mokli didhi. Help aavi rahi chhe."},
+kn:{s:"🛡️ SOS - Mahila Surakshe",u:"Emergency Help ge Otti",a:"SOS ALERT! Nimma location 3 trusted contacts ge kalisalagide. Help baruttide."},
+ks:{s:"🛡️ SOS - Zanana Hifazat",u:"Emergency Help khathr Dabai",a:"SOS ALERT! Tuhund location 3 trusted contactsan henz chhukh pathraavmut. Help yivaan chhuh."},
+kok:{s:"🛡️ SOS - Stree Suraksha",u:"Emergency Help khatir Dabai",a:"SOS ALERT! Tumchi location 3 trusted contacts ak pathoili. Help yeta."},
+mai:{s:"🛡️ SOS - Mahila Suraksha",u:"Emergency Help lel Dabau",a:"SOS ALERT! Aahan ke location 3 trusted contacts ke bhej del gel. Help aabhi rahal achi."},
+ml:{s:"🛡️ SOS - Sthree Suraksha",u:"Emergency Help nu Amarthuka",a:"SOS ALERT! Ningalude location 3 trusted contacts ilekku ayachu. Help varunnundu."},
+mni:{s:"🛡️ SOS - Nupi Suraksha",u:"Emergency Help gi Namdana",a:"SOS ALERT! Nahakki location 3 trusted contacts ta thabire. Help lakli."},
+mr:{s:"🛡️ SOS - Mahila Suraksha",u:"Emergency Help sathi Daba",a:"SOS ALERT! Tumchi location 3 trusted contacts na pathavali. Help yet aahe."},
+ne:{s:"🛡️ SOS - Mahila Suraksha",u:"Emergency Help ka lagi Thichnuhos",a:"SOS ALERT! Tapainko location 3 trusted contacts lai pathaiyo. Help aaundai cha."},
+or:{s:"🛡️ SOS - Mahila Suraksha",u:"Emergency Help pain Dabantu",a:"SOS ALERT! Apananka location 3 trusted contacts ku patha gala. Help asuchi."},
+pa:{s:"🛡️ SOS - Mahila Suraksha",u:"Emergency Help layi Dabao",a:"SOS ALERT! Tuhadi location 3 trusted contacts nu bhej ditti gayi. Help aa rahi hai."},
+sa:{s:"🛡️ SOS - Mahila Suraksha",u:"Emergency Sahayyartham Pidaya",a:"SOS ALERT! Bhavatyah sthanam 3 vishvasapatreshu preshitam. Sahayyam agachchhati."},
+sat:{s:"🛡️ SOS - Kuri Suraksha",u:"Emergency Help lagit Tepe",a:"SOS ALERT! Amah thain 3 trusted contacts then kol akana. Help hijuk kana."},
+sd:{s:"🛡️ SOS - Aurat Hifazat",u:"Emergency Help laye Dabayo",a:"SOS ALERT! Tawhanji location 3 trusted contacts khe mokli wai. Help achi rahi aahe."},
+ta:{s:"🛡️ SOS - Pengal Padukappu",u:"Emergency Help ku Azhuthavum",a:"SOS ALERT! Ungal location 3 trusted contacts ku anuppapattulladhu. Help varugiradhu."},
+te:{s:"🛡️ SOS - Mahila Bhadrata",u:"Emergency Help kosam Nokkandi",a:"SOS ALERT! Mee location mee 3 trusted contacts ki pampabadindi. Help vastondi."},
+ur:{s:"🛡️ SOS - Khawateen Hifazat",u:"Emergency Help ke liye Dabain",a:"SOS ALERT! Aapki location 3 trusted contacts ko bhej di gayi hai. Help aa rahi hai."}
+};
+function setLang(l){lang=l;document.getElementById('sosText').innerText=T[l].s;document.getElementById('sosSub').innerText=T[l].u;}
+function sos(){alert(T[lang].a);}
+</script>
+</body></html>
